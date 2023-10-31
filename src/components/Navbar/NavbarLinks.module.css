@@ -1,0 +1,9 @@
+.navbar-links__list-item {
+    margin-left: 2.2rem;
+    font-size: 1.188rem;
+    transition: color 0.3s;
+}
+
+.navbar-links__link:hover {
+    color: var(--active-color);
+}

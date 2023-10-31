@@ -28,6 +28,10 @@ body {
 
 .wrapper {
   max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: auto;
+  padding: 0 1.25rem;
 }
 
 ul {
@@ -42,6 +46,15 @@ a {
 p {
   margin: 0.625rem, 0;
   font-weight: 500;
+}
+
+.visually-hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
 
 .reveal {
@@ -69,3 +82,19 @@ p {
 color: var(--active-color);
 }
 
+.scroll-top {
+  position: sticky;
+  bottom: 20;
+  right: 20;
+  z-index: 100;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    text-align: justify;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
