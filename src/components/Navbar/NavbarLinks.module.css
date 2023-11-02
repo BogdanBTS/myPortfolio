@@ -1,9 +1,18 @@
-.navbar-links__list-item {
+.menu-links__list-item {
     margin-left: 2.2rem;
     font-size: 1.188rem;
     transition: color 0.3s;
 }
 
-.navbar-links__link:hover {
+.menu-links__link:hover {
     color: var(--active-color);
 }
+
+@media screen and (max-width: 890px) {
+  
+    .menu-links__list-item {
+      margin: 0.625rem 0;
+    }
+  
+  }
+  

@@ -1,10 +1,10 @@
 import React from 'react'
 import styles from "./NavbarLinks.module.css"
 
-const NavbarLinks = ({href, label}) => {
+const NavbarLinks = ({ href, label, active, onClick }) => {
   return (
-    <li className={styles['navbar-links__list-item']}>
-        <a className={styles['navbar-links__link']} href={href}>{label}</a>
+    <li className={styles['menu-links__list-item']}>
+      <a className={`${styles['menu-links__link']} ${active ? 'active' : ''}`} href={href} onClick={onClick}>{label}</a>
     </li>
   )
 }

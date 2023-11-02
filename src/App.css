@@ -1,8 +1,8 @@
 :root {
   --bg-dark: #0f141e;
-  --bg-light: #f9f9f9;
-  --dark-color: rgba (15, 20, 30, 0.8);
-  --active-color: #86c232;
+  --bg-light: #474b4f;
+  --dark-active-color: #61892f;
+  --active-color: rgb(134, 194, 50);
 }
 
 *,
@@ -79,7 +79,7 @@ p {
 }
 
 .active {
-color: var(--active-color);
+  color: var(--active-color);
 }
 
 .scroll-top {
