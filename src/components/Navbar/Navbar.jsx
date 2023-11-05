@@ -13,7 +13,7 @@ const navLinks = [
 function Navbar() {
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
     const [showLinks, setShowLinks] = useState(false);
-    const [isScroled, setIsScroled] = useState(false);
+    const [isScrolled, setIsScrolled] = useState(false);
     const [activeSection, setActiveSection] = useState('');
 
     useEffect(() => {
@@ -26,12 +26,13 @@ function Navbar() {
             window.removeEventListener('resize', handleResize);
         }
 
-    }, [windowWidth])
+    }, [windowWidth]);
 
     useEffect(() => {
         const handleScroll = () => {
-            setIsScroled(window.scrollY > 0)
-        }
+            setIsScrolled(window.scrollY > 0);
+        };
+        
         window.addEventListener('scroll', handleScroll);
 
         return () => {
@@ -55,11 +56,12 @@ function Navbar() {
         }
 
         const observer = new IntersectionObserver(handleIntersect, options);
-
+        
         const sections = document.querySelectorAll('section');
 
         sections.forEach(section => {
             observer.observe(section);
+            
         });
 
         return () => {
@@ -75,7 +77,7 @@ function Navbar() {
         const sectionId = event.target.getAttribute('href').substring(1);
         const section = document.getElementById(sectionId);
         if (section) {
-            const navbarHeight = document.querySelector('nav').offsetHeight;
+            const navbarHeight = document.querySelector("nav").offsetHeight;
             const sectionTop = section.offsetTop - navbarHeight;
             window.scrollTo({
                 top: sectionTop,
@@ -88,7 +90,7 @@ function Navbar() {
 
     return (
         <header className={styles.header}>
-            <nav className={`${styles.header__navbar} ${isScroled ? styles.scrolled : ''}`}>
+            <nav className={`${styles.header__navbar} ${isScrolled ? styles.scrolled : ''}`}>
                 <div className="wrapper">
                     <div className={styles['header__navbar-wrapper']}>
                         <div className={styles.header__logo}>
