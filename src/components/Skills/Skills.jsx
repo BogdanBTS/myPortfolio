@@ -17,7 +17,7 @@ function Skills() {
                             In <span className={styles['skills-heaning']}>Developing</span>
                         </h1>
                         <p className={styles['skills-content__paragraph']}>
-                            Every day is a new challenge, and I gain more knowledge and experience. Learning new technologies has always been interesting to me, and I strive to stay up-to-date as technology constantly evolves.
+                            Each day presents a fresh opportunity to expand my knowledge and refine my problem-solving skills. The continuous evolution of technology fuels my passion for learning and drives me to stay abreast of the latest advancements.
                         </p>
                     </div>
                     <div className={styles['skills-sings']}>
@@ -28,10 +28,10 @@ function Skills() {
             <div className={styles['bottom']}>
                 <div className={`${styles.flex} wrapper`}>
                     <div className="">
-                        <h3>I'm open for work</h3>
+                        <h3>I'm open to work</h3>
                     </div>
                     <div className="">
-                        <a href=""> </a>
+                        <a href="#">Download CV</a>
                     </div>
                 </div>
             </div>
