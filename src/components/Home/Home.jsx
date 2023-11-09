@@ -3,7 +3,7 @@ import styles from './Home.module.css'
 
 const Home = () => {
     return (
-        <section className={styles["home-section"]} id="home">
+        <section aria-label="main hero section" className={styles["home-section"]} id="home">
             <div className="wrapper">
                 <div className={styles.home}>
                     <div className={styles.home__content}>
@@ -26,7 +26,7 @@ const Home = () => {
                             </div>
                         </div>
                         <div className={styles.scroll}>
-                            <a href="#about">
+                            <a aria-label="Scroll to about section" href="#about">
                                 <span className={styles.scroll__mouse}></span>
                             </a>
                         </div>

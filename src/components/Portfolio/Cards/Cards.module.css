@@ -1,0 +1,87 @@
+.card {
+    position: relative;
+    display: block;
+    height: 100%;
+    border-radius: 40px;
+    overflow: hidden;
+    box-shadow: 0 14px 28px rgba(134, 194, 50, 0.2),
+    0 10px 10px rgba(134, 194, 50, 0.22);
+}
+
+.card img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-family: 'poppins';
+    background-color: rgba(71, 75, 79, 1);
+    z-index: 1;
+    transform: translateY(100%);
+    transition: 0.2s ease-in-out;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+}
+
+.card:hover .card-overlay {
+    transform: translateY(0);
+}
+
+.card-header {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 2em;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    transform: translateY(-100%);
+    transition: 0.2s ease-in-out;
+    background-color: rgba(71, 75, 79, 1);
+}
+
+.card-icon {
+    color: var(--text-color);
+    margin-left: -20px;
+}
+
+.card-content a {
+    background-color: var(--active-color);
+    color: var(--text-color);
+    font-weight: 600;
+    padding: 7px 17px;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    transition: 0.3s; 
+}
+
+.card-content a:hover {
+    background-color: var(--text-color);
+    color: var(--dark-active-color);
+}
+
+.card:hover .card-header {
+    transform: translateY(0);
+}
+
+.card-title {
+    font-size: 1rem;
+    font-family: sans-serif;
+    margin-bottom: 12px;
+}
+
+.card-description {
+    font-size: 0.9rem;
+    padding: 0 2rem 2rem;
+    margin: 0;
+    overflow: hidden;
+}
+
+.demo-link {
+    margin-right: 10px;
+}

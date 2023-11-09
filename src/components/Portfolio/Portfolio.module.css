@@ -1,0 +1,27 @@
+.portfolio {
+    padding: 5rem 0;
+}
+
+.title {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.title-span {
+    color: var(--active-color)
+}
+
+.title hr {
+    width: 80px;
+    padding: 0 30px;
+    margin: 0 auto;
+    border: 1px solid var(--text-color);
+  }
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 4rem 5vw;
+    padding: 0;
+}

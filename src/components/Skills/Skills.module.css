@@ -1,4 +1,139 @@
-.skills-content__paragraph {
+.skills {
+  padding-top: 5rem;
+}
+
+.title {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.title-span {
+  color: var(--active-color);
+}
+
+.title hr {
+  width: 80px;
+  padding: 0 30px;
+  margin: 0 auto;
+  border: 1px solid var(--text-color);
+}
+
+.skills-grid {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.skills-heading {
+  font-size: 3rem;
+}
+
+.skills-content-paragraph {
   font-size: 1.25rem;
   text-indent: 25px;
+}
+
+.bottom {
+  position: relative;
+  background-image: url("../../../public/images/bg-img.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin-top: 5rem;
+}
+
+.bottom::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  mix-blend-mode: multiply;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+}
+
+.work-status-paragraph {
+  font-size: 2rem;
+  mix-blend-mode: screen;
+  position: relative;
+}
+
+.work-status-paragraph::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 3px;
+  background-color: var(--text-color);
+  bottom: 11px;
+  left: 100%;
+  opacity: 1;
+  animation: blink 0.9s infinite;
+}
+
+.cv-link-item {
+  position: relative;
+  color: var(--text-color);
+  font-size: 1.2rem;
+  font-weight: 600;
+  mix-blend-mode: screen;
+}
+
+.cv-link-item::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  border: 1.4px solid var(--active-color);
+  transform: scaleX(0);
+  transition: transform 0.6s cubic-bezier(0.19, 1, 0.22, 1);
+  transform-origin: center center;
+  box-shadow: 0px 4px 6px rgba(134, 194, 50, 0.2);
+}
+
+.cv-link-item:hover::after {
+  transform: scaleX(1);
+  transform-origin: center center;
+  transition-duration: 0.4s;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .flex {
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .work-status-paragraph {
+    font-size: 1.5rem;
+  }
+
+  .skills-content {
+    max-width: 500px;
+    justify-self: center;
+  }
 }
