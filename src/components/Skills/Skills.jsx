@@ -18,7 +18,7 @@ function Skills() {
                             <h1>
                                 In <span className={styles['skills-heading']}>Developing</span>
                             </h1>
-                            <p className={styles['skills-content-paragraph']}>
+                            <p className={styles['skills-paragraph']}>
                                 Each day presents a fresh opportunity to expand my knowledge and refine my problem-solving skills. The continuous evolution of technology fuels my passion for learning and drives me to stay abreast of the latest advancements.
                             </p>
                         </div>
