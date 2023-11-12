@@ -18,7 +18,7 @@ const Home = () => {
                         </div>
                         <div className={styles.links}>
                             <div className={styles.link}>
-                                <a className={styles['link-item']} href="#projects">View Projects</a>
+                                <a className={styles['link-item']} href="#portfolio">View Projects</a>
                             </div>
                             <span className={styles.divider}>or</span>
                             <div className={styles.link}>

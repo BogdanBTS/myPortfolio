@@ -23,7 +23,7 @@ const Contact = () => {
                             <div className={styles['contact-wrapper']}>
                                 <TbPhoneCheck size={50} />
                                 <span className={styles['action-message']}>Call me</span>
-                                <h3 className={styles['phone-number']}>+48886044919</h3>
+                                <h3 className={styles['phone-number']}>+48-886-044-919</h3>
                             </div>
                             <div className={styles['contact-wrapper']}>
                                 <HiOutlineMail size={50} />
@@ -33,6 +33,7 @@ const Contact = () => {
                         </div>
                         <div className={styles.send}>
                             <h3 className={styles['send-heading']}>Send Me a Message</h3>
+                            <ContactForm />
                         </div>
                     </div>
                 </div>

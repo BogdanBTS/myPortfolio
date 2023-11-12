@@ -58,7 +58,7 @@
   color: var(--text-color);
   font-weight: 600;
   padding: 7px 17px;
-  border-radius: 20px;
+  border-radius: 10px;
   letter-spacing: 1px;
   font-size: 0.9rem;
   transition: 0.3s;
