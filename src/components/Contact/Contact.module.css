@@ -37,7 +37,7 @@
 
 .contact-wrapper {
     display: grid;
-    grid-template-columns: 70px 280px;
+    grid-template-columns: 70px 200px;
     grid-template-rows: repeat(2, 1fr);
     margin-bottom: 20px;
 }

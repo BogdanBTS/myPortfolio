@@ -5,7 +5,8 @@ import About from "./components/About/About";
 import Skills from "./components/Skills/Skills";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Contact from "./components/Contact/Contact";
-
+import Footer from "./components/Footer/Footer";
+import BackToTop from "./components/BackToTop/BackToTop";
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
         <Portfolio />
         <Contact />
       </main>
+      <Footer />
+      <BackToTop />
     </>
   );
 }
