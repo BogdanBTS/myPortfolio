@@ -30,7 +30,7 @@ const BackToTop = () => {
 
 
     return (
-        <button className={`${styles.button} ${showButton ? styles.show : ''}`} onClick={scrollToTop}>
+        <button aria-label="Scroll to the top" className={`${styles.button} ${showButton ? styles.show : ''}`} onClick={scrollToTop}>
             <HiArrowNarrowUp size={20} className={styles.icon} />
         </button>
     )

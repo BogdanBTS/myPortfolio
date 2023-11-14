@@ -1,35 +1,36 @@
 .portfolio {
-    padding-top: 5rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .title {
-    text-align: center;
-    font-size: 1.5rem;
+  text-align: center;
+  font-size: 1.5rem;
 }
 
 .title-span {
-    color: var(--active-color)
+  color: var(--active-color);
 }
 
 .title hr {
-    width: 80px;
-    padding: 0 30px;
-    margin: 0 auto;
-    border: 1px solid var(--text-color);
-  }
+  width: 80px;
+  padding: 0 30px;
+  margin: 0 auto;
+  border: 1px solid var(--text-color);
+}
 
 .cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
-    margin: 4rem 5vw 7rem;
-    padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin: 4rem 5vw 7rem;
+  padding: 0;
 }
 
 @media screen and (max-width: 968px) {
-    .cards {
-        grid-template-columns: repeat(1, minmax(250px, 350px));
-        justify-content: center;
-        gap: 6rem;
-    }
+  .cards {
+    grid-template-columns: repeat(1, minmax(250px, 350px));
+    justify-content: center;
+    gap: 6rem;
+  }
 }
