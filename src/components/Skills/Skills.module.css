@@ -20,7 +20,7 @@
 }
 
 .skills-grid {
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr 2fr);
 }
 
 .skills-heading {
@@ -28,7 +28,7 @@
 }
 
 .skills-paragraph {
-  font-size: 1.25rem;
+    
   text-indent: 25px;
 }
 
@@ -102,6 +102,27 @@
   transform: scaleX(1);
   transform-origin: center center;
   transition-duration: 0.4s;
+}
+
+.skills-logos {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+}
+
+.skills-img {
+  width: 30%;
+}
+
+.skill-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skills-name {
+  font-size: 1.2rem;
 }
 
 @keyframes blink {

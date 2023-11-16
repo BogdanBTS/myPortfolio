@@ -1,6 +1,7 @@
-import React from 'react'
-import styles from './Skills.module.css'
-import Reveal from '../Reveal/Reveal'
+import React from 'react';
+import styles from './Skills.module.css';
+import skillData from "../../skillData";
+import Reveal from '../Reveal/Reveal';
 
 function Skills() {
     return (
@@ -22,8 +23,15 @@ function Skills() {
                                 Each day presents a fresh opportunity to expand my knowledge and refine my problem-solving skills. The continuous evolution of technology fuels my passion for learning and drives me to stay abreast of the latest advancements.
                             </p>
                         </div>
-                        <div className={styles['skills-sings']}>
-
+                        <div className={styles['skills-logos']}>
+                            {
+                                skillData.map(({ id, title, src, alt }) => (
+                                    <div className={styles['skill-item']} key={id}>
+                                        <img className={styles['skills-img']} src={src} alt={alt} />
+                                        <p className={styles['skills-name']}>{title}</p>
+                                    </div>
+                                ))
+                            }
                         </div>
                     </div>
                 </div>
