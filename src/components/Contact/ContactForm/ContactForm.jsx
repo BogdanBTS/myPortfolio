@@ -41,6 +41,15 @@ const ContactForm = () => {
             message: enteredMessage,
         }
 
+        fetch('https://formsubmit.co/ajax/bt.devmastery@gmail.com', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+            },
+            body: JSON.stringify(Object.fromEntries(new FormData(event.target))),
+        })
+
         console.log(formData);
 
         setEnteredName('');
@@ -86,6 +95,7 @@ const ContactForm = () => {
                     <p className={styles.error}>Please enter your message.</p>
                 )}
             </div>
+            <input name="_formsubmit_id" type="text" style={{ display: 'none' }}></input>
             <button className={styles.button}>Send Message</button>
         </form>
     )
