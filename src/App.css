@@ -1,6 +1,6 @@
 :root {
   --bg-dark: #0f141e;
-  --bg-light: #474b4f;
+  --bg-light: hsl(210, 5%, 29%);
   --dark-active-color: #4a7b28;
   --active-color: rgb(134, 194, 50);
   --text-color: #f9f9f9;

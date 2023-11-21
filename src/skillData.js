@@ -6,12 +6,12 @@ const skillData = [
     alt: "HTML",
   },
 
-  {
-    id: "2",
-    title: "CSS",
-    src: "./images/02_css.png",
-    alt: "CSS",
-  },
+  // {
+  //   id: "2",
+  //   title: "CSS",
+  //   src: "./images/02_css.png",
+  //   alt: "CSS",
+  // },
 
   {
     id: "3",
@@ -48,26 +48,26 @@ const skillData = [
     alt: "SQL",
   },
 
-  {
-    id: "8",
-    title: "TypeScript",
-    src: "./images/08_typescript.png",
-    alt: "TypeScript",
-  },
+  // {
+  //   id: "8",
+  //   title: "TypeScript",
+  //   src: "./images/08_typescript.png",
+  //   alt: "TypeScript",
+  // },
 
-  {
-    id: "9",
-    title: "NodeJS",
-    src: "./images/09_node.png",
-    alt: "NodeJS",
-  },
+  // {
+  //   id: "9",
+  //   title: "NodeJS",
+  //   src: "./images/09_node.png",
+  //   alt: "NodeJS",
+  // },
 
-  {
-    id: "10",
-    title: "NEXT.JS",
-    src: "./images/10_nextjs.png",
-    alt: "NEXT.JS",
-  },
+  // {
+  //   id: "10",
+  //   title: "NEXT.JS",
+  //   src: "./images/10_nextjs.png",
+  //   alt: "NEXT.JS",
+  // },
 
   {
     id: "11",
