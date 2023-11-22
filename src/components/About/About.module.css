@@ -42,8 +42,8 @@
 
 
 .about-content {
-  max-width: 500px;
-  justify-self: end;
+  /* max-width: 500px; */
+  /* justify-self: end; */
 }
 
 .about-content__paragraph {

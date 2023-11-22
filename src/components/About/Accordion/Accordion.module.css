@@ -11,6 +11,7 @@
   display: flex;
   flex-direction: column;
   gap: 1rem;
+  padding: 0.5rem;
   contain: content;
 }
 
@@ -62,7 +63,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .accordion-panel.open p {
-    transition: transform 600ms 500ms, opacity 600ms 500ms;
+    transition: transform 600ms 600ms, opacity 600ms 600ms;
   }
 }
 
@@ -98,7 +99,7 @@
 
 .accordion-title-span {
   color: var(--text-color);
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 700;
   position: relative;
   isolation: isolate;

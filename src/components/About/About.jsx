@@ -16,7 +16,7 @@ const accordionList = [
         ariaLabelledby: 'panel1-heading',
         contentParagraph1: `I'm grateful for the opportunities to work and learn, as they allow me to contribute to the world and expand my knowledge.`,
         contentParagraph2: `Spot: Oliwa, Gdańsk, PL.`,
-        imgSrc: './images/chicagoLarge.jpg',
+        imgSrc: './images/chicagoLarge.jpeg',
         imgAlt: `Bogdan's workspace in Gdańsk, with a laptop and a tablet`,
     },
 
@@ -30,9 +30,9 @@ const accordionList = [
         iconAlt: 'Happy family icon',
         panelContentId: 'panel2-content',
         ariaLabelledby: 'panel2-heading',
-        contentParagraph1: `Treasuring every moment with my beloved family, I am blessed to have them!`,
+        contentParagraph1: `Treasuring every moment with my beloved family, I am blessed to have them all!`,
         contentParagraph2: `Spot: Stare Miasto, Gdańsk, PL.`,
-        imgSrc: './images/gdanskLarge.jpg',
+        imgSrc: './images/gdanskLarge.jpeg',
         imgAlt: `Bogdan with his wife and three minor kids`,
     },
 
@@ -46,9 +46,9 @@ const accordionList = [
         iconAlt: 'Space rocket icon',
         panelContentId: 'panel3-content',
         ariaLabelledby: 'panel3-heading',
-        contentParagraph1: `Great family time at the space expo!`,
+        contentParagraph1: `Great family time with sones at the space expo!`,
         contentParagraph2: `Spot: Galeria Metropolia, Gdańsk, PL.`,
-        imgSrc: './images/spaceLarge.jpg',
+        imgSrc: './images/spaceLarge.jpeg',
         imgAlt: `Bogdan with his two sons at the space exhibition`,
     },
 
@@ -63,8 +63,8 @@ const accordionList = [
         panelContentId: 'panel4-content',
         ariaLabelledby: 'panel4-heading',
         contentParagraph1: `If you are ever in the Silicon Valley, check out the Googleplex! It is a truly amazing place.`,
-        contentParagraph2: `Spot: Mountain View, CA, USA.`,
-        imgSrc: './images/googleLarge.jpg',
+        contentParagraph2: `Spot: Mountain View, California, USA.`,
+        imgSrc: './images/googleLarge.jpeg',
         imgAlt: `Bogdan is next to Google Doodle wall`,
     },
 
@@ -80,7 +80,7 @@ const accordionList = [
         ariaLabelledby: 'panel5-heading',
         contentParagraph1: `The colossal stature of Sequoias is truly awe-inspiring, a once-in-a-lifetime encounter that transcends words.`,
         contentParagraph2: `Spot: Sequoia National Park, California, USA.`,
-        imgSrc: './images/sequoiaLarge.jpg',
+        imgSrc: './images/sequoiaLarge.jpeg',
         imgAlt: `Bogdan is next to the giant Sequoia`,
     },
 
