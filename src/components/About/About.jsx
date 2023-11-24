@@ -16,7 +16,7 @@ const accordionList = [
         ariaLabelledby: 'panel1-heading',
         contentParagraph1: `I'm grateful for the opportunities to work and learn, as they allow me to contribute to the world and expand my knowledge.`,
         contentParagraph2: `Spot: Oliwa, Gdańsk, PL.`,
-        imgSrc: './images/chicagoLarge.jpeg',
+        imgSrc: './images/gdanskWorkLarge.jpeg',
         imgAlt: `Bogdan's workspace in Gdańsk, with a laptop and a tablet`,
     },
 
@@ -46,7 +46,7 @@ const accordionList = [
         iconAlt: 'Space rocket icon',
         panelContentId: 'panel3-content',
         ariaLabelledby: 'panel3-heading',
-        contentParagraph1: `Great family time with sones at the space expo!`,
+        contentParagraph1: `Great family time with sones at the Space Expo!`,
         contentParagraph2: `Spot: Galeria Metropolia, Gdańsk, PL.`,
         imgSrc: './images/spaceLarge.jpeg',
         imgAlt: `Bogdan with his two sons at the space exhibition`,

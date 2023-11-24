@@ -81,7 +81,7 @@
 
 .card-description {
   font-size: 0.9rem;
-  padding: 0 2rem 1rem;
+  padding: 0 1rem 1rem 2rem;
   margin: 0;
   overflow: hidden;
 }
@@ -93,5 +93,8 @@
 @media screen and (max-width: 968px) {
   .card {
     height: 115%;
+  }
+  .card-title {
+    text-align: initial;
   }
 }

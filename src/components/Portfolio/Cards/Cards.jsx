@@ -3,7 +3,7 @@ import styles from './Cards.module.css'
 import { IoIosArrowDropright} from 'react-icons/io'
 
 
-const Cards = ({ image, title, demoLink, gitHub }) => {
+const Cards = ({ image, title, demoLink, gitHub, description }) => {
     return (
 
         <li>
@@ -19,7 +19,7 @@ const Cards = ({ image, title, demoLink, gitHub }) => {
                         </div>
                     </div>
                     <p className={styles['card-description']}>
-                        Lorem Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle poligraficznym. Został po raz pierwszy użyty w XV w. przez nieznanego drukarza do wypełnienia tekstem próbnej książki.</p>
+                        {description} </p>
                 </div>
             </div>
         </li>

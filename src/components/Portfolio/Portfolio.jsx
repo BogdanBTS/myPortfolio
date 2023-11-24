@@ -17,7 +17,7 @@ function Portfolio() {
         </div>
         <ul className={styles.cards}>
         {cardData.map(cardItem => (
-            <Cards key={cardItem.id} image={cardItem.img} title={cardItem.title} demoLink={cardItem.demo} gitHub={cardItem.github} />
+            <Cards key={cardItem.id} image={cardItem.img} title={cardItem.title} demoLink={cardItem.demo} gitHub={cardItem.github} description={cardItem.description} />
         ))}
         </ul>
             </div>
