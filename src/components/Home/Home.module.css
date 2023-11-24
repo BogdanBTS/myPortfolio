@@ -141,7 +141,7 @@
   width: 425px;
   height: 425px;
   background-color: #f9f9f9;
-  border-radius: 50%;
+  border-radius: 50vh;
   overflow: hidden;
 }
 
@@ -156,7 +156,6 @@
   );
   transition: 0.5s;
   animation: animatedCircle 8s linear infinite;
-  overflow: hidden;
 }
 
 .circle::after {
@@ -349,7 +348,7 @@
     height: 280px;
   }
 
-  .circle::before{
-  inset: -25px 70px;
-}
+  .circle::before {
+    inset: -25px 70px;
+  }
 }
