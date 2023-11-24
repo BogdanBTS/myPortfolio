@@ -340,3 +340,14 @@
     height: 300px;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .circle {
+    width: 280px;
+    height: 280px;
+  }
+
+  .circle::before{
+  inset: -25px 70px;
+}
+}
