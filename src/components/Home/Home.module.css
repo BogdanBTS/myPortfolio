@@ -156,6 +156,7 @@
   );
   transition: 0.5s;
   animation: animatedCircle 8s linear infinite;
+  overflow: hidden;
 }
 
 .circle::after {
