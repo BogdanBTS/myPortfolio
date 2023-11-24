@@ -141,7 +141,7 @@
   width: 425px;
   height: 425px;
   background-color: #f9f9f9;
-  border-radius: 50vh;
+  border-radius: 50%;
   overflow: hidden;
 }
 
@@ -156,6 +156,7 @@
   );
   transition: 0.5s;
   animation: animatedCircle 8s linear infinite;
+  z-index: 1;
 }
 
 .circle::after {
