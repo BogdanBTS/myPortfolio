@@ -143,6 +143,7 @@
   background-color: #f9f9f9;
   border-radius: 50%;
   overflow: hidden;
+  transform: translateZ(0);
 }
 
 .circle::before {
@@ -156,7 +157,6 @@
   );
   transition: 0.5s;
   animation: animatedCircle 8s linear infinite;
-  z-index: 1;
 }
 
 .circle::after {
