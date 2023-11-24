@@ -148,7 +148,8 @@
 .circle::before {
   content: "";
   position: absolute;
-  inset: 0px 70px;
+  inset: -50px 70px;
+  /* inset: 0px 70px; */
   background: linear-gradient(
     var(--dark-active-color),
     var(--dark-active-color)
