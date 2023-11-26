@@ -23,7 +23,7 @@ const cardData = [
     title: "Perfect Job (Development...)",
     img: "./images/perfectJob.jpg",
     demo: "/#",
-    github: "/#",
+    github: "https://github.com/BogdanBTS/perfect_job_react_native",
     description: `Developing a job search React Native application using Rapid API and Expo tools, including Expo Router.`,
   },
 ];
