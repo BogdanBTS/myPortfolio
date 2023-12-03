@@ -32,7 +32,7 @@ function Navbar() {
         const handleScroll = () => {
             setIsScrolled(window.scrollY > 0);
         };
-        
+
         window.addEventListener('scroll', handleScroll);
 
         return () => {
@@ -56,12 +56,12 @@ function Navbar() {
         }
 
         const observer = new IntersectionObserver(handleIntersect, options);
-        
+
         const sections = document.querySelectorAll('section');
 
         sections.forEach(section => {
             observer.observe(section);
-            
+
         });
 
         return () => {
@@ -83,6 +83,7 @@ function Navbar() {
                 top: sectionTop,
                 behavior: 'smooth',
             })
+            setShowLinks(!showLinks);
         }
     }
 
