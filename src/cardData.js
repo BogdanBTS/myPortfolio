@@ -15,7 +15,7 @@ const cardData = [
     img: "./images/myPortfolio.jpg",
     demo: "https://bogdan-tsaruk.netlify.app/",
     github: "https://github.com/BogdanBTS/myPortfolio",
-    description: `This responsive React web project showcases my personal portfolio and is the most recent one. Crafted solely using React, GRID, FLEX, and CSS Modules, it features captivating animations and assesible features that elevate the user experience.`,
+    description: `This responsive React web project showcases my personal portfolio and is the most recent one. Crafted solely using React, GRID, FLEX, and CSS Modules, it features captivating animations and accessible features that elevate the user experience.`,
   },
 
   {
