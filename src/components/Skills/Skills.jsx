@@ -41,7 +41,7 @@ function Skills() {
                             <h3 className={styles['work-status-paragraph']}>I'm open to work</h3>
                         </div>
                         <div className={styles['cv-link']}>
-                            <a className={styles['cv-link-item']} href="./files/resume.pdf" download={'Bogdan_Tsaruk_CV'}>Download <span className={styles['title-span']}>CV</span></a>
+                            <a className={styles['cv-link-item']} href="./files/Bogdan-Tsaruk-CV.pdf" download={'Bogdan_Tsaruk_CV'}>Download <span className={styles['title-span']}>CV</span></a>
                         </div>
                     </div>
                 </div>
