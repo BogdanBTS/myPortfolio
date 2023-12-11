@@ -8,7 +8,7 @@ const Cards = ({ image, title, demoLink, gitHub, description }) => {
 
         <li>
             <div className={styles.card}>
-                <img src={image} alt='Project' />
+                <img draggable="false" src={image} alt='Project' />
                 <div className={styles['card-overlay']}>
                     <div className={styles['card-header']}>
                         <IoIosArrowDropright size={45} className={styles['card-icon']} />
