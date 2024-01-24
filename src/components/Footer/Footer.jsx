@@ -23,25 +23,25 @@ const Footer = () => {
             <div className="wrapper">
                 <div className={styles.flex}>
                     <p className={styles['copyrights-paragraph']}>
-                        &copy; 2023 by Bogdan Tsaruk. All rights reserved.
+                        &copy; 2024 by Bogdan Tsaruk. All rights reserved.
                     </p>
                     <ul>
                         <li>
                             <a onClick={handleSectionClick}
-                            href="#home">Home</a>
+                                href="#home">Home</a>
                         </li>
                         <li>
-                            <a onClick={handleSectionClick} 
-                            href="#about">About</a>
+                            <a onClick={handleSectionClick}
+                                href="#about">About</a>
                         </li>
                         <li>
-                            <a  onClick={handleSectionClick} href="#skills">Skills</a>
+                            <a onClick={handleSectionClick} href="#skills">Skills</a>
                         </li>
                         <li>
-                            <a onClick={handleSectionClick}href="#portfolio">Portfolio</a>
+                            <a onClick={handleSectionClick} href="#portfolio">Portfolio</a>
                         </li>
                         <li>
-                            <a onClick={handleSectionClick}href="#contact">Contact</a>
+                            <a onClick={handleSectionClick} href="#contact">Contact</a>
                         </li>
                     </ul>
                     <div className={styles.icons}>
