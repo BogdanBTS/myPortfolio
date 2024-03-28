@@ -38,7 +38,7 @@ const Home = () => {
                                 Bogdan Tsaruk
                                 <br /> <span /> Web Developer
                             </h2>
-                            <a className={styles.circle__link} href="#contact">Hire Me</a>
+                            <a className={styles.circle__link} href="./files/Bogdan-Tsaruk-CV.pdf" download={'Bogdan_Tsaruk_CV'}>Download CV</a>
                         </div>
                     </div>
                 </div>
