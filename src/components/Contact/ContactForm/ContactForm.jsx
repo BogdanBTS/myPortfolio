@@ -5,7 +5,7 @@ const ContactForm = () => {
     const [enteredName, setEnteredName] = useState('');
     const [enteredEmail, setEnteredEmail] = useState('');
     const [enteredMessage, setEnteredMessage] = useState('');
-    const [touchedFields, settouchedFields] = useState([]);
+    const [touchedFields, setTouchedFields] = useState([]);
 
     const handleInputChange = (event) => {
         const { name, value } = event.target;
@@ -21,14 +21,14 @@ const ContactForm = () => {
     const handleInputBlur = (event) => {
         const { name } = event.target;
         if (!touchedFields.includes(name)) {
-            settouchedFields((prevFieldsState) => [...prevFieldsState, name]);
+            setTouchedFields((prevFieldsState) => [...prevFieldsState, name]);
         }
     };
 
     const handleSubmit = (event) => {
         event.preventDefault();
 
-        settouchedFields(['name', 'email', 'message']);
+        setTouchedFields(['name', 'email', 'message']);
 
         if (enteredName.trim() === '' || enteredEmail.trim() === '' || enteredMessage.trim() === '') {
             console.log('Empty field in SEND ME A MESSAGE form!');
@@ -55,7 +55,7 @@ const ContactForm = () => {
         setEnteredName('');
         setEnteredEmail('');
         setEnteredMessage('');
-        settouchedFields([]);
+        setTouchedFields([]);
     }
 
     const isFieldInvalid = (fieldName) => {
