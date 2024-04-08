@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './Cards.module.css'
-import { IoIosArrowDropright} from 'react-icons/io'
+import { IoIosArrowDropright } from 'react-icons/io'
 
 
 const Cards = ({ image, title, demoLink, gitHub, description }) => {

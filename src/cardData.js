@@ -3,9 +3,9 @@ const cardData = [
     id: "1",
     title: "bMovies (React JS, AXIOS)",
     img: "./images/bMovies.jpeg",
-    demo: "http://bmovies.infinityfreeapp.com/",
+    demo: "https://bmovies-info.netlify.app/",
     github:
-      "https://github.com/BogdanBTS/Beetroot_projects/tree/bed1c19cd632d4b13bf8d33404688371ce5c3af8/Movie_app/my-app",
+      "https://github.com/BogdanBTS/Beetroot_projects/tree/master/Movie_app/my-app/",
     description: `This responsive React web application seamlessly provides information about movies, TV series, and actors. It features a robust search functionality and utilizes the TMDB database through the AXIOS API for data retrieval.`,
   },
 
